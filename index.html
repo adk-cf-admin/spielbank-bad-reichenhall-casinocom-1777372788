@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="utf-8">
+
+    <script src="./index.js"></script>
+
+    <link rel="manifest" href="./manifest.json">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+    <link rel="preload" as="image" href="_assets/images/1777371611-logo-at-2x-1.webp" fetchpriority="high">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <meta name="theme-color" content="">
+    <title>Spielbank Bad Reichenhall: Casino, Spiele, Bar, JETON und Cultino-Events</title>
+    <meta name="description"
+          content="Die Spielbank Bad Reichenhall verbindet Roulette, Black Jack, Poker, Dice52, moderne Automaten, Bayern-Jackpot, Cultino-Bühne, Oceans, Bar und JETON Restaurant zu einem stilvollen Casinoabend.">
+    <link rel="canonical" href="https://spielbank-bad-reichenhall-casino.com">
+    <meta property="og:title" content="Spielbank Bad Reichenhall: Casino, Spiele, Bar, JETON und Cultino-Events">
+    <meta property="og:description"
+          content="Die Spielbank Bad Reichenhall verbindet Roulette, Black Jack, Poker, Dice52, moderne Automaten, Bayern-Jackpot, Cultino-Bühne, Oceans, Bar und JETON Restaurant zu einem stilvollen Casinoabend.">
+    <meta property="og:url" content="https://spielbank-bad-reichenhall-casino.com">
+    <meta property="og:site_name" content="Spielbank Bad Reichenhall: Casino, Spiele, Bar, JETON und Cultino-Events">
+    <meta property="og:locale" content="de-DE">
+    <meta property="og:image" content="_assets/images/1777371733-rei.webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="spielbank-bad-reichenhall-casino.com">
+    <meta name="twitter:title" content="Spielbank Bad Reichenhall: Casino, Spiele, Bar, JETON und Cultino-Events">
+    <meta name="twitter:description"
+          content="Die Spielbank Bad Reichenhall verbindet Roulette, Black Jack, Poker, Dice52, moderne Automaten, Bayern-Jackpot, Cultino-Bühne, Oceans, Bar und JETON Restaurant zu einem stilvollen Casinoabend.">
+    <meta name="twitter:image" content="_assets/images/1777371733-rei.webp">
+    <meta name="twitter:image:width" content="1200">
+    <meta name="twitter:image:height" content="630">
+    <link rel="icon" href="_assets/images/1777371741-favicon-15.webp" type="image/x-icon" sizes="16x16">
+    <meta name="language" content="de-DE">
+
+    <link rel="apple-touch-icon" href="_assets/images/1777371579-favicon-14.webp" sizes="96x96">
+    <link rel="icon" href="_assets/images/1777371579-favicon-14.webp" type="image/webp" sizes="192x192">
+
+    <link rel="preload" href="_assets/images/1777371851-rei.webp" as="image" fetchpriority="high">
+
+    <link rel="alternate" hreflang="x-default" href="https://spielbank-bad-reichenhall-casino.com" />
+    <link rel="alternate" hreflang="de" href="https://spielbank-bad-reichenhall-casino.com" />
+</head>
+
+<body>
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="minus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#9D6111"
+                d="M228 128a12 12 0 0 1-12 12H40a12 12 0 0 1 0-24h176a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        style="display: none"
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 32 32"
+>
+    <symbol id="globe-icon" viewBox="0 0 32 32">
+        <path
+                fill="#02225A"
+                d="M32.032 16c0-8.501-6.677-15.472-15.072-15.969-0.173-0.019-0.346-0.032-0.523-0.032-0.052 0-0.104 0.005-0.156 0.007-0.093-0.002-0.186-0.007-0.281-0.007-8.84 0-16.032 7.178-16.032 16.001s7.192 16.001 16.032 16.001c0.094 0 0.188-0.006 0.281-0.008 0.052 0.002 0.104 0.008 0.156 0.008 0.176 0 0.349-0.012 0.523-0.032 8.395-0.497 15.072-7.468 15.072-15.969zM29.049 21.151c-0.551-0.16-1.935-0.507-4.377-0.794 0.202-1.381 0.313-2.84 0.313-4.357 0-1.196-0.069-2.354-0.197-3.469 3.094-0.37 4.45-0.835 4.54-0.867l-0.372-1.050c0.695 1.659 1.080 3.478 1.080 5.386 0 1.818-0.352 3.555-0.987 5.151zM8.921 16c0-1.119 0.074-2.212 0.21-3.263 1.621 0.127 3.561 0.222 5.839 0.243v6.939c-2.219 0.021-4.114 0.111-5.709 0.234-0.22-1.319-0.34-2.715-0.34-4.154zM16.967 2.132c2.452 0.711 4.552 4.115 5.492 8.628-1.512 0.12-3.332 0.209-5.492 0.229v-8.857zM14.971 2.156v8.832c-2.136-0.021-3.965-0.109-5.502-0.226 0.96-4.457 3.076-7.836 5.502-8.606zM14.971 21.913l0 7.929c-2.263-0.718-4.256-3.705-5.293-7.719 1.492-0.11 3.253-0.189 5.292-0.21zM16.967 29.868l-0-7.955c2.061 0.020 3.814 0.102 5.288 0.217-1.019 4.067-3 7.076-5.288 7.738zM16.967 19.92l0-6.939c2.291-0.021 4.218-0.118 5.818-0.25 0.131 1.053 0.203 2.147 0.203 3.268 0 1.442-0.116 2.84-0.329 4.16-1.575-0.128-3.462-0.219-5.692-0.24zM28.588 9.81c-0.302 0.094-1.564 0.453-4.094 0.751-0.564-2.998-1.584-5.561-2.91-7.412 3.048 1.325 5.535 3.697 7.005 6.661zM11.213 2.831c-1.632 1.873-2.963 4.568-3.691 7.754-2.265-0.245-3.623-0.534-4.166-0.665 1.585-3.27 4.407-5.836 7.856-7.088zM2.614 11.787c0.385 0.104 1.841 0.467 4.549 0.766-0.155 1.107-0.24 2.26-0.24 3.447 0 1.509 0.136 2.96 0.383 4.334-2.325 0.251-3.755 0.552-4.396 0.706-0.607-1.566-0.944-3.264-0.944-5.041 0-1.467 0.228-2.883 0.649-4.213zM3.784 22.886c0.727-0.154 2.029-0.39 3.956-0.591 0.759 2.803 1.993 5.175 3.473 6.874-3.16-1.148-5.79-3.398-7.429-6.282v0zM21.583 28.849c1.195-1.665 2.14-3.907 2.728-6.525 1.982 0.227 3.226 0.494 3.853 0.652-1.5 2.596-3.808 4.669-6.581 5.873z">
+        </path>
+    </symbol>
+</svg>
+
+<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="star-icon" viewBox="0 0 32 31">
+        <path d="M10.0431 24.5932L15.8898 21.0667L21.7365 24.6396L20.2052 17.9577L25.3559 13.5031L18.5811 12.8999L15.8898 6.58913L13.1985 12.8535L6.42371 13.4567L11.5744 17.9577L10.0431 24.5932ZM15.8898 25.4285L8.187 30.0687C7.84672 30.2853 7.49096 30.3781 7.11975 30.3471C6.74853 30.3162 6.42371 30.1925 6.1453 29.9759C5.86688 29.7594 5.65034 29.489 5.49566 29.1648C5.34099 28.8406 5.31005 28.4768 5.40286 28.0734L7.44456 19.3034L0.623417 13.4103C0.314068 13.1319 0.121034 12.8145 0.0443157 12.4581C-0.0324028 12.1017 -0.00951111 11.754 0.112991 11.415C0.235493 11.0759 0.421103 10.7975 0.669819 10.5797C0.918536 10.362 1.25882 10.2227 1.69067 10.1621L10.6927 9.37327L14.1729 1.11366C14.3276 0.742438 14.5676 0.464023 14.8931 0.278414C15.2185 0.0928044 15.5507 0 15.8898 0C16.2288 0 16.5611 0.0928044 16.8865 0.278414C17.2119 0.464023 17.452 0.742438 17.6067 1.11366L21.0869 9.37327L30.0889 10.1621C30.522 10.224 30.8623 10.3632 31.1098 10.5797C31.3572 10.7963 31.5428 11.0747 31.6666 11.415C31.7903 11.7553 31.8138 12.1036 31.7371 12.46C31.6604 12.8163 31.4667 13.1331 31.1562 13.4103L24.335 19.3034L26.3767 28.0734C26.4695 28.4756 26.4386 28.8394 26.2839 29.1648C26.1292 29.4902 25.9127 29.7606 25.6343 29.9759C25.3559 30.1912 25.0311 30.315 24.6598 30.3471C24.2886 30.3793 23.9329 30.2865 23.5926 30.0687L15.8898 25.4285Z" fill="#9D6111"/>
+    </symbol>
+</svg>
+
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="1em"
+        height="1em"
+        viewBox="0 0 256 256"
+>
+    <symbol id="plus-icon" viewBox="0 0 256 256">
+        <path
+                fill="#9D6111"
+                d="M228 128a12 12 0 0 1-12 12h-76v76a12 12 0 0 1-24 0v-76H40a12 12 0 0 1 0-24h76V40a12 12 0 0 1 24 0v76h76a12 12 0 0 1 12 12"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="33"
+        height="32"
+        viewBox="0 0 33 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="play-icon" viewBox="0 0 33 32">
+        <path
+                d="M16.8334 0.0786133C7.9606 0.0786133 0.767578 7.20678 0.767578 15.9998C0.767578 24.7929 7.9606 31.921 16.8334 31.921C25.7061 31.921 32.8992 24.7929 32.8992 15.9998C32.8992 7.20678 25.7061 0.0786133 16.8334 0.0786133ZM22.3861 16.8438L14.3532 21.8192C14.1907 21.9197 14.0059 21.9703 13.821 21.9703C13.6536 21.9703 13.4859 21.929 13.3342 21.8454C13.015 21.67 12.8169 21.3372 12.8169 20.9752V11.0244C12.8169 10.6625 13.015 10.3296 13.3342 10.1543C13.6533 9.97788 14.0436 9.98857 14.3532 10.1805L22.3861 15.1559C22.6796 15.3381 22.858 15.6568 22.858 15.9998C22.858 16.3428 22.6796 16.6616 22.3861 16.8438Z"
+                fill="#02225A"
+        />
+    </symbol>
+</svg>
+
+<svg
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+>
+    <symbol id="information-outline" viewBox="0 0 20 20">
+        <path
+                d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z"
+                fill="#222829"
+        />
+    </symbol>
+</svg>
+
+<div class="wrapper">
+    <header class="header" id="top">
+        <div class="headerBlock">
+            <div class="headerLogoContainer"><a href="https://spielbank-bad-reichenhall-casino.com" aria-label="Main page"><img class="header__logo logo"
+                                                                                                     src="_assets/images/1777371611-logo-at-2x-1.webp" alt="Spielbank Bad Reichenhall Logo" /></a></div>
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" target="_blank" href="casino.html?id=example-offer-id"
+                                         aria-label="Registrieren" id="navSignUp"> Registrieren </a></li>
+                <li class="nav__item nav__itemLarge"><a class="nav__link nav__linkLarge" target="_blank"
+                                                        href="casino.html?id=example-offer-id" aria-label=" Jetzt spielen" id="navPlayNow">  Jetzt spielen </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heroContainer">
+            <div class="hero">
+                <div class="heroBlock block">
+                    <div class="heroGroup">
+                        <div class="heroTextGroup">
+                            <p class="heroText heroTextDesktop">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextMobile">Exklusives Willkommensangebot von</p>
+                            <p class="heroText heroTextBonus" id="bonusText"></p>
+                        </div><a target="_blank" class="heroLink" id="bonusLink" href="/" aria-label="Spiel starten"><span
+                            class="heroButton btn btn--large">Bonus sichern</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="heroUnder">
+                <h1 class="heroText heroMainTitle">Spielbank Bad Reichenhall — Casino, Roulette, Poker, Automaten, Cultino und JETON</h1>
+            </div>
+        </section>
+        <div class="bonusesCircleContainer">
+            <section class="topCasino">
+                <div class="container">
+                    <div class="topCasinoBlock block">
+                        <h2 class="topCasinoTitle title"><span>Top-Casino <span id="countryName"></span></span>
+                        </h2>
+                        <div class="topCasinoGroup" id="casinoCardContainer">
+                            <!-- Casino cards will be dynamically inserted here --></div><button
+                            class="topCasinoButton btn btn--large" id="showMoreButton"> Alle Casino </button>
+                    </div>
+                </div>
+            </section>
+            <section class="bonusDetails" id="bonuses">
+                <div class="container">
+                    <div class="bonusDetailsBlock block">
+                        <h2 class="bonusDetailsTitle title"><span>Bonusdetails</span></h2>
+                        <div class="bonusDetailsGroup">
+                            <div class="bonusTable">
+                                <div class="bogradientContainer">
+                                    <div class="bonusTableRow bonusTableHeader">
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderCasino">Casino</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusDetailsWelcome">Boni</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Rate</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusHeaderTextSpins">Frei Spins</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText">Mehr Infos</p>
+                                        </div>
+                                        <div class="bonusTableHead">
+                                            <p class="bonusHeaderText bonusClaimBonus">Erhalten</p>
+                                        </div>
+                                    </div>
+                                </div><!-- Bonus rows will be dynamically inserted here -->
+                                <div id="bonusTableRows"></div>
+                            </div>
+                        </div><button class="bonusDetailsButton btn btn--large" id="refreshButton"> Aktualisieren
+                    </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="advantagesCircleContainer">
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantagesBlock block">
+                        <div class="advantagesDescription">
+                            <h2 class="advantagesTitle title">Vorteile</h2>
+                            <ul class="advantagesList">
+                                <li class="providersGroup">In der Spielbank Bad Reichenhall verbinden wir klassisches Spiel, moderne Automaten, die Cultino-Bühne, Bar-Genuss und Restaurant-Komfort.</li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Bayern-Jackpot: Gewinne bis €1.000.000 erleben.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Jackpot-Einstieg schon ab nur €0,50.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">€4 VIP-Jetons nach Cultino-Abenden sichern.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Dice52 bietet Auszahlungen bis €5.000.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Roulette, Black Jack und Poker live.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Rund 90 Automaten mit Multiroulette.</p>
+                                </li>
+                                <li class="advantagesItem">
+                                    <svg class="advantagesStar" width="30" height="29">
+                                        <use href="#star-icon"></use>
+                                    </svg>
+                                    <p class="advantagesText">Freier Eintritt, gepflegtes Abendflair.</p>
+                                </li>
+                                <li class="providersGroup">Unser Casino eignet sich für einen spontanen Abend, einen besonderen Anlass und den ersten Besuch in stilvoller Umgebung. Wir setzen auf verständliche Abläufe, persönliche Betreuung, hochwertige Unterhaltung und ein vielseitiges Erlebnis zwischen Spiel, Bühne und Genuss.</li>
+                            </ul><a class="advantagesLink" id="advantagesLink" target="_blank" href="/" aria-label="Mehr erfahren"><span
+                                class="advantagesButton btn btn--large">Mehr erfahren</span></a>
+                        </div>
+                        <div class="advantagesMobile">
+                            <h2 class="advantagesTitle title advantagesAppTitle">Spielbank Bad Reichenhall App</h2><img
+                                class="advantagesMobilePhone" src="_assets/images/1777372006-reibad.webp" title="Spielbank Bad Reichenhall Mobile"
+                                alt="Spielbank Bad Reichenhall App" />
+                            <div class="advantagesStoreGroup"><a href="/" id="appStoreLink" aria-label="Play game"
+                                                                 target="_blank"><img class="advantagesStore" width="181" height="53"
+                                                                                      src="./assets/images/advantages/app-store.webp" alt="iOs App " title="Spielbank Bad Reichenhall App"/></a><a
+                                    href="/" id="googlePlayLink" aria-label="Play game" target="_blank"><img
+                                    class="advantagesStore" width="181" height="54"
+                                    src="./assets/images/advantages/google-play.webp" alt="android App Spielbank Bad Reichenhall App" title="Spielbank Bad Reichenhall App" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="games" id="games">
+                <div class="container">
+                    <div class="gamesBlock block">
+                        <h2 class="gamesTitle title"><span>Beliebte Spiele</span></h2>
+                        <div class="gamesGroup" id="gamesContainer"><!-- Games will be dynamically inserted here -->
+                        </div><a target="_blank" class="gamesLink" id="allGamesLink" href="/" aria-label="Alle Spiele"><span
+                            class="gamesButton btn btn--large">Alle Spiele</span></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Über das Spielbank Bad Reichenhall </h2>
+                        <div class="historyGroup">
+                            <div class="historyColumn">
+                                <div class="historyText">
+                                    <p class="historyDescription">Wir überzeugen mit Live-Spiel, modernen Automaten, Cultino-Bühne und Oceans-Club in einem stimmigen Abendkonzept. Unser Casino verbindet Spannung, Musik, Drinks und Gastronomie zu einem gepflegten Erlebnis mit besonderem Charakter.</p>
+                                    <ul class="historyList">
+                                        <li class="historyItem">Bayern-Jackpot bis €1.000.000.</li>
+                                        <li class="historyItem">€4 VIP-Jetons inklusive.</li>
+                                        <li class="historyItem">Dice52 zahlt €5.000.</li>
+                                    </ul>
+                                    <p class="historyDescription">Die Spielbank Bad Reichenhall begrüßt ihre Gäste in einem eleganten Casino-Ambiente, in dem Spiel, Kultur und Genuss zusammenfinden. Wir bieten Live-Roulette, Black Jack, Poker und moderne Automaten für Gäste, die einen gepflegten Abend erleben möchten. Unser Casino ist ideal für erfahrene Spieler und für alle, die zum ersten Mal echte Spielbankatmosphäre genießen wollen. </p>
+                                </div>
+                            </div>
+                            <div class="historyColumn"><img class="historyImage"
+                                                            src="_assets/images/1777372016-mac-rei.webp" alt="History" title="Spielbank Bad Reichenhall Desktop"/></div>
+                        </div>
+                        <p class="historyDescription">Vom Empfang bis zum Spieltisch legen wir Wert auf Orientierung, Service und eine angenehme Stimmung. Die Cultino-Bühne ergänzt unser Haus mit Musik, Kabarett, Comedy und besonderen Live-Momenten. In der Bar lässt sich der Abend entspannt begleiten oder stilvoll verlängern. Das Restaurant JETON macht den Besuch kulinarisch rund. Wir verbinden Spielvergnügen mit Unterhaltung, Genuss und persönlicher Gastfreundschaft. Jeder Besuch kann spontan, festlich oder bewusst entspannt gestaltet werden. Die Spielbank Bad Reichenhall steht für stilvolle Abende, spannende Spiele und ein Ambiente, das in Erinnerung bleibt.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Spielbank Bad Reichenhall: Öffnungszeiten, Zahlungsmethoden und Treueprogramm</h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Spiel, Bühne und Genuss am Abend </h3> <p> In der Spielbank Bad Reichenhall verbinden wir elegantes Casino-Flair, moderne Automaten, die Cultino-Bühne, den Clubbereich Oceans und das Restaurant JETON zu einem vielseitigen Abendkonzept. Unser Stil lebt von klassischem Spiel, gepflegter Atmosphäre und einer Umgebung, in der Gäste spielen, Musik erleben, essen, trinken und den Abend bewusst genießen können. Das Automatenspiel startet bei uns bereits ab Mittag, während das Große Spiel mit Roulette, Black Jack, Poker und Dice52 den Abend prägt. American Roulette ist live am Abend erlebbar, während virtuelle Formate und Multiroulette einen früheren Einstieg ermöglichen. Black Jack und Bavarian Texas Hold’em bringen Kartenspannung an den Tisch, Dice52 ergänzt unser Angebot um ein besonderes Würfelspiel. An der Bar im Spielsaal servieren wir Erfrischungen, alkoholfreie Drinks, Cocktails und festliche Getränke für besondere Momente. Das Restaurant JETON erweitert den Besuch um ein kulinarisches Erlebnis direkt im Casino. Die Cultino-Bühne setzt Akzente mit Musik, Kabarett, Comedy, Konzerten und kompakten Live-Abenden. Oceans steht für Drinks, lockere Clubstimmung, Feiern und Gamen in einem modernen Rahmen. Für Gäste von Cultino-Abenden gibt es attraktive Casino-Extras wie VIP-Jetons, ein Getränk und eine Roulette-Erklärung. Unser Haus lässt sich hervorragend mit einem Hotelaufenthalt oder einem Abend in der Stadt verbinden. Wir gestalten jeden Besuch als stimmiges Erlebnis aus Spiel, Service, Genuss und Unterhaltung. </p> <br> <table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px"> <thead> <tr style="background-color: #9D6111;"> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Bereich</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Tage</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Zeit</th> </tr> </thead> <tbody> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Automatenspiel</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 12:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Virtual Roulette und Multiroulette</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 12:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Großes Spiel</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">16:00–02:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>American Roulette live</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 16:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black Jack</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 20:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bavarian Texas Hold’em</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">täglich</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 20:00 Uhr</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Dice52</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">Mittwoch und Samstag</td> <td style="border: 1px solid #ffffff; padding: 10px;">ab 20:00 Uhr</td> </tr> </tbody> </table> <br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Service, Währung und Auszahlungen </h3> <p> In der Spielbank Bad Reichenhall empfangen wir unsere Gäste mit einem aufmerksamen Team, das Orientierung, Spielabläufe und Abendangebote verständlich erklärt. Unser Personal am Empfang, an der Kasse, an den Tischen, im Automatenspiel, an der Bar und im Restaurant sorgt für einen angenehmen, sicheren und gut begleiteten Besuch. Croupiers und Dealer führen durch Live-Spiele, kündigen Setzphasen an, begleiten den Spielfluss und erklären auf Wunsch grundlegende Abläufe. Gerade beim ersten Besuch ist es angenehm, einfach hineinzuschnuppern, Fragen zu stellen und das passende Spieltempo zu finden. Wir pflegen eine freundliche, klare und serviceorientierte Kommunikation. </p> <p> Die Hauptsprache in unserem Casino ist Deutsch, zugleich unterstützen wir internationale Gäste in vielen Alltagssituationen auch auf Englisch. Begriffe wie Roulette, Black Jack, Poker, Cashout, Jetons und Casino Card sind im Spielbetrieb leicht verständlich und erleichtern den Einstieg. Bei Cultino-Veranstaltungen, an der Bar und im Restaurant helfen wir bei Platzierung, Getränken, Bestellungen und dem passenden Ablauf des Abends. Unser Anspruch ist ein respektvoller, ruhiger und lösungsorientierter Service. So fühlt sich der Besuch bei uns sowohl spontan als auch geplant angenehm an. </p> <p> In der Spielbank Bad Reichenhall wird in Euro gespielt und abgerechnet. An den Spieltischen nutzen Gäste Jetons, die über die Kasse oder im Rahmen des jeweiligen Spielablaufs bereitgestellt werden. Im Automatenspiel ist die Casino Card besonders komfortabel: Guthaben kann an der Kasse, am Automaten oder am Terminal aufgebucht werden, anschließend wird mit persönlicher PIN gespielt. Einsätze und Gewinne werden automatisch auf dem Kartenguthaben erfasst. Für Fragen zu aktuell verfügbaren Zahlungsarten, Geschenkformaten, Restaurantzahlung oder individuellen Anliegen steht unser Team direkt vor Ort bereit. </p> <p> Gewinne werden übersichtlich ausgezahlt: Am Tisch erhalten Gäste Jetons, die an der Kasse getauscht werden können, im Automatenspiel erfolgt der Cashout je nach Gerät über Karte, Terminal oder Kasse. Die Casino Card unterstützt eine bequeme Guthabenführung und macht Auszahlungen im Automatenspiel besonders einfach. Wer Bargeld benötigt, findet in der Umgebung banknahe Infrastruktur; unser Team hilft gerne bei der Orientierung. Fremdwährungen sollten vor dem Besuch über Bankservices getauscht werden, damit der Abend im Casino reibungslos in Euro abläuft. Gewinne aus gelegentlichem Glücksspiel sind in der Regel nicht einkommensteuerpflichtig; besondere Einzelfälle, Zinserträge oder berufsmäßiges Spiel sollten steuerlich individuell geprüft werden. Wir sorgen für nachvollziehbare Abläufe, klare Auszahlungsschritte und ein komfortables Erlebnis. </p> <br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Besuchsregeln, Dresscode und Anreise </h3> <p> In der Spielbank Bad Reichenhall schaffen wir eine Atmosphäre, in der sich Gäste vom ersten Moment an sicher und willkommen fühlen. Der Eintritt in den Spielsaal ist frei, für die Teilnahme am Spiel gilt ein Mindestalter von 21 Jahren und ein gültiger Lichtbildausweis ist erforderlich. Auch ein Besuch ohne Spiel ist möglich, etwa für einen Drink an der Bar, einen Abend im Restaurant JETON oder eine Veranstaltung im Cultino. Gäste ab 18 Jahren können in Begleitung einer Person über 21 Jahren unser Haus besuchen, am Spiel teilnehmen dürfen sie ab 21 Jahren. Als Dokument eignen sich Personalausweis, Reisepass oder EU-Führerschein. Wir bitten um gepflegte Kleidung, passend zu einem besonderen Casinoabend. In Bad Reichenhall genügt ein gepflegter Smart-Casual-Look, ein Sakko ist nicht verpflichtend. Im Spielbereich achten wir auf eine ruhige, respektvolle Stimmung und klare Abläufe. Einsätze werden während der Setzphase platziert, nach der Absage geht das Spiel nach den Tischregeln weiter. Unser Haus befindet sich in der Wittelsbacherstr. 17 im Kurgastzentrum und ist per Auto, Taxi, öffentlichem Verkehr oder zu Fuß gut erreichbar. Wer mit dem Auto kommt, orientiert sich an der Beschilderung zur Spielbank und an den Parkmöglichkeiten rund um das Kurgastzentrum. Wir gestalten den Besuch transparent, angenehm und passend für einen stilvollen Abend. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Dresscode </h4> <ul> <li>• Gepflegter Smart Casual mit Hemd, Polo, Bluse, Kleid, gepflegter Hose oder stilvoller Freizeitkleidung passt hervorragend zu unserem Casino.</li> <li>• Ein Sakko ist in der Spielbank Bad Reichenhall nicht verpflichtend, ein eleganter Auftritt ist jedoch immer willkommen.</li> <li>• Für Cultino, JETON und die Bar empfehlen wir einen Look, der den Abendcharakter unseres Hauses unterstreicht.</li> <li>• Sporthosen, Strandlook und ungepflegte Kleidung passen nicht zu unserem gepflegten Ambiente.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Eintritt und Altersregeln </h4> <ul> <li>• Die Teilnahme am Spiel ist ab 21 Jahren möglich.</li> <li>• Für den Zutritt wird ein gültiger amtlicher Lichtbildausweis benötigt.</li> <li>• Ein Besuch ab 18 Jahren ist in Begleitung einer Person über 21 Jahren möglich, jedoch ohne Spielteilnahme.</li> <li>• Der Eintritt in den Spielsaal ist frei, eine Spielpflicht besteht nicht.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Hausregeln </h4> <ul> <li>• Gespielt wird nur nach Zulassung, Altersprüfung und den Regeln des jeweiligen Tisches.</li> <li>• Wir achten auf respektvollen Umgang mit Gästen, Croupiers, Dealern und dem gesamten Team.</li> <li>• Nach der Absage der Setzphase werden keine weiteren Einsätze platziert.</li> <li>• Foto, Video und Gerätenutzung im Spielbereich richten sich nach den Hausregeln und den Hinweisen unseres Personals.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Anreise und Parken </h4> <ul> <li>• Unsere Adresse lautet Spielbank Bad Reichenhall, Wittelsbacherstr. 17.</li> <li>• Mit dem Auto folgen Gäste einfach der Beschilderung zur Spielbank und zum Kurgastzentrum.</li> <li>• Parkmöglichkeiten befinden sich im Umfeld der städtischen Infrastruktur.</li> <li>• Taxi, öffentlicher Verkehr und ein Spaziergang aus zentraler Lage sind ebenfalls passende Optionen für den Abend.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Stammgastvorteile und Casino Card </h3> <p> In der Spielbank Bad Reichenhall schätzen wir Gäste, die unser Haus regelmäßig für Spiel, Events, Bar, JETON und Cultino besuchen. Unser Vorteilsmodell basiert auf komfortablem Zugang, persönlichem Service, Casino Card, Event-Extras und abwechslungsreichen Abendformaten. Die Casino Card macht das Automatenspiel besonders bequem: Guthaben wird aufgebucht, die Karte wird mit einer persönlichen vierstelligen PIN genutzt, Einsätze und Gewinne werden automatisch erfasst. So bleibt das Spiel übersichtlich und der Gast kann sein eigenes Tempo wählen. Für Cultino-Besucher bieten wir ein attraktives Event-Extra mit €4 VIP-Jetons, einem Getränk und einer Roulette-Erklärung im Anschluss an die Veranstaltung. Im Automatenspiel lockt der Bayern-Jackpot bereits ab €0,50 Einsatz mit Gewinnmöglichkeiten bis €1.000.000. Dice52 bietet einen klaren Einstieg mit €5 Pflichtsatz und Auszahlungsfeldern bis €5.000. Am Kartentisch zählen Atmosphäre, Service und der direkte Kontakt zu Dealer und Croupier. Poker-Gäste erleben Turniere, Cash Game und klar angekündigte Teilnahmebedingungen. Wir gestalten Vorteile praktisch, erlebbar und nah am Abend: Spiel, Show, Restaurant und Bar ergänzen sich zu einem persönlichen Casinoerlebnis. Je vertrauter Gäste mit unserem Haus werden, desto einfacher kombinieren sie die passenden Bereiche. Unser Anspruch ist ein Vorteilssystem, das Komfort, Unterhaltung und Spielkultur sinnvoll verbindet. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Registrierung und Teilnahme </h4> <ul> <li>• Die Spielteilnahme ist ab 21 Jahren möglich und setzt einen gültigen Lichtbildausweis voraus.</li> <li>• Die Casino Card unterstützt komfortables Automatenspiel und wird mit einer persönlichen vierstelligen PIN gesichert.</li> <li>• Guthaben kann an der Kasse, am Automaten oder am Terminal aufgebucht werden.</li> <li>• Für das Cultino-Extra wird ein Veranstaltungsticket und die Zulassung zum Spielbereich benötigt.</li> <li>• Poker, Dice52, Black Jack und Bavarian Texas Hold’em folgen den jeweils angekündigten Tisch- und Zeitregeln.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Teilnahmelevel </h4> <ul> <li>• Abendgast: freier Eintritt, Bar, JETON, Oceans, Cultino und Kennenlernen ohne Spielpflicht.</li> <li>• Automatengast: Casino Card, Guthabenführung, Jackpot-Automaten und bequemer Cashout.</li> <li>• Live-Spiel-Gast: Roulette, Black Jack, Bavarian Texas Hold’em und Dice52 nach Abendplan.</li> <li>• Poker-Gast: Turniere, Cash Game, Buy-in, Table Stake und strategisches Spiel.</li> <li>• Event-Gast: Cultino, Musik, Kabarett, Comedy, Getränk, VIP-Jetons und Roulette-Erklärung.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Boni und Vorteile </h4> <ul> <li>• €4 VIP-Jetons: attraktives Extra für Gäste nach einem Cultino-Abend.</li> <li>• Freigetränk: angenehme Ergänzung zum Showbesuch und Start in den Casinoabend.</li> <li>• Roulette-Erklärung: kompakter Einstieg für Gäste, die das Spiel kennenlernen möchten.</li> <li>• Bayern-Jackpot ab €0,50: vernetzter Jackpot mit Gewinnmöglichkeiten bis €1.000.000.</li> <li>• Dice52 ab €5: spannendes Würfelspiel mit Auszahlungsfeldern bis €5.000.</li> <li>• Casino Card mit PIN: komfortables Automatenspiel mit automatischer Buchung von Einsätzen und Gewinnen.</li> <li>• Cashout/Payout: einfache Auszahlung über Karte, Terminal oder Kasse.</li> <li>• Poker-Formate: Turniere und Cash Game mit klar angekündigten Bedingungen.</li> </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="">
+            <div class="container">
+                <div class="sprovidersBlock block">
+                    <h2 class="sprovidersTitle title"> Softwareanbieter </h2>
+                    <div class="sprovidersGroup" id="providersContainer">
+                        <!-- Provider images will be dynamically inserted here --></div>
+                </div>
+            </div>
+        </section>
+
+        <div class="historyCircleContainer">
+            <section class="history">
+                <div class="container">
+                    <div class="historyBlock block">
+                        <h2 class="historyTitle title">Unterhaltung und Gaming im Spielbank Bad Reichenhall </h2>
+                        <div class="historyDescription"><h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Gewinne, Specials und Event-Extras </h3> <p> In der Spielbank Bad Reichenhall schaffen wir zusätzliche Spiel- und Unterhaltungsmomente, die über die laufenden Vorteile der Casino Card hinausgehen. Unsere Specials verbinden Live-Spiel, Automaten, Cultino, saisonale Aktionen, Oceans und gastronomischen Genuss. Ein besonderer Spielakzent ist der Bayern-Jackpot, der bereits ab €0,50 Einsatz Teilnahme ermöglicht und Gewinnchancen bis €1.000.000 bietet. Im Automatenspiel ergänzen Jackpot-, Bingo- und Pokerautomaten die Auswahl. Dice52 begeistert durch einen klaren Einsatz von €5 und Auszahlungsfelder bis €5.000. Bavarian Texas Hold’em bringt Pokerspannung gegen die Bank und erlaubt je nach Tisch ein optionales Bonusspiel. Bei Black Jack sorgt das Zusatzfeld Twins mit 11:1 Auszahlung für einen weiteren Reiz. Cultino erweitert den Abend mit Musik, Kabarett, Comedy und Live-Auftritten. Nach vielen Cultino-Veranstaltungen erhalten Gäste ein Extra aus VIP-Jetons, Getränk und Roulette-Erklärung. Zu saisonalen Anlässen setzen wir auf Geschenkideen, Kalenderaktionen und besondere Abende. Oceans ergänzt das spätere Erlebnis mit Drinks, Clubstimmung, Tanzformaten und Spiel. So wird unser Casino zu einem vielseitigen Ort für Spiel, Show und Genuss. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Spielgewinne </h4> <ul> <li>• Bayern-Jackpot bis €1.000.000: vernetzter Jackpot mit Einstieg ab €0,50.</li> <li>• Dice52 bis €5.000: Auszahlungsfelder steigen mit jedem erfolgreichen Schritt ohne Sieben.</li> <li>• Black Jack Twins 11:1: Zusatzwette auf ein Kartenpaar mit gleichem Index.</li> <li>• Bavarian Texas Hold’em Ante €5–€500: klarer Haupteinsatz mit zusätzlicher Bonusoption am Tisch.</li> <li>• Automaten ab €0,01 je Gewinnlinie: flexibler Einstieg für individuelles Spieltempo.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Specials und Aktionen </h4> <ul> <li>• Cultino Casino-Extra: €4 VIP-Jetons, ein Getränk und eine Roulette-Erklärung nach der Veranstaltung.</li> <li>• Geschenkformate: Jetons, Dinner, Eventtickets und Casinoerlebnisse für besondere Anlässe.</li> <li>• Poker-Events: Turniere und Cash Game mit angekündigtem Buy-in und transparenter Struktur.</li> <li>• Saisonale Abende: Feiertagsstimmung, Kalenderaktionen und thematische Highlights im Eventplan.</li> <li>• Oceans-Tanzformate: regelmäßige kostenlose Tanzabende und lockeres Feiern nach dem Spiel.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Unterhaltungsvorteile </h4> <ul> <li>• Live-Musik im Cultino: intime Konzertabende direkt im Casino-Umfeld.</li> <li>• Kabarett und Comedy: pointierte Unterhaltung in besonderer Nähe zum Spielgeschehen.</li> <li>• Bar-Erlebnis: Cocktails, alkoholfreie Drinks, Champagner und entspannte Gespräche.</li> <li>• JETON Restaurant & Bar: kulinarischer Auftakt oder genussvoller Abschluss des Abends.</li> <li>• Oceans Club: Drinks, moderne Clubstimmung und ein freier Abendrhythmus.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: beliebte Spiele im Überblick </h3> <p> In der Spielbank Bad Reichenhall bieten wir eine Spielauswahl, die Klassiker, moderne Automaten und besondere Formate verbindet. Unser Casino lebt von Live-Atmosphäre, in der Roulette, Black Jack, Poker und Dice52 jeweils ihren eigenen Rhythmus entfalten. American Roulette passt zu Gästen, die die Spannung der Kugel und den direkten Kontakt zum Croupier lieben. Multiroulette verbindet elektronische Bedienung mit Anbindung an das Live-Spiel. Black Jack überzeugt durch klare Regeln, schnelle Runden und Entscheidungen des Spielers. Bavarian Texas Hold’em bringt Pokergefühl gegen die Bank und kann ohne lange Wartezeit starten. Texas Hold’em Poker spricht Gäste an, die Strategie, Position, Table Stake und das Spiel gegen andere Teilnehmer schätzen. Dice52 macht unser Angebot besonders, weil Würfel, Serien und steigende Auszahlungen einen eigenständigen Reiz bieten. Das Automatenspiel eignet sich für individuelles Tempo, kurze Sessions, Jackpot-Automaten und moderne Video-Slots. Bingo- und Pokerautomaten ergänzen die Vielfalt im elektronischen Spielbereich. Wir helfen unseren Gästen, das passende Spiel nach Stimmung, Erfahrung und Abendplan zu wählen. Jeder Bereich wird durch Service, klare Orientierung und echtes Casino-Flair begleitet. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Roulette </h4> <ul> <li>• American Roulette: Live-Spiel mit Croupier, Kessel, Tableau und spannender Ergebnisansage.</li> <li>• Virtual Roulette: komfortabler Einstieg für Gäste, die früher und in eigenem Tempo spielen möchten.</li> <li>• Multiroulette: elektronische Terminals mit Anbindung an das Live-Spiel.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Black Jack </h4> <ul> <li>• Black Jack: Kartenspiel gegen den Dealer mit dem Ziel, möglichst nah an 21 Punkte zu kommen.</li> <li>• Twins: Zusatzwette mit 11:1 Auszahlung bei zwei Karten gleichen Index.</li> <li>• Split und Double: Spielentscheidungen, die jede Runde taktischer und lebendiger machen.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Poker </h4> <ul> <li>• Texas Hold’em Poker: strategisches Spiel mit Blinds, Table Stake, Community Cards und sozialem Wettbewerb.</li> <li>• Bavarian Texas Hold’em: Poker gegen die Bank mit Ante von €5 bis €500 und möglichem Bonusspiel.</li> <li>• Pokerturniere: strukturierte Runden mit Buy-in, Stack, Rangfolge und Preischancen.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Dice52 </h4> <ul> <li>• Dice52: Würfelspiel mit dem Ziel, möglichst lange keine Sieben zu werfen.</li> <li>• €5 Einstieg: klarer Pflichtsatz für den Start in das Hauptspiel.</li> <li>• Bis €5.000 Auszahlung: steigende Felder machen jeden Wurf besonders spannend.</li> </ul><br> <h4 style = "font-weight: bold; font-size: 24px;"> Automaten </h4> <ul> <li>• Slot-Machines: moderne Video-Slots mit verschiedenen Themen und Gewinnlinien.</li> <li>• Jackpot-Automaten: Geräte mit progressiven oder vernetzten Gewinnmechaniken.</li> <li>• Bingo-Automaten: ruhigeres Spielgefühl mit eigenem Kombinationsreiz.</li> <li>• Pokerautomaten: Kartenmechanik im flexiblen Automatentempo.</li> <li>• Bayern-Jackpot: Einsatz ab €0,50 und Gewinnmöglichkeiten bis €1.000.000.</li> </ul><br>
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Einsätze und Limits nach Spielbereich </h3> <p> In der Spielbank Bad Reichenhall wählen Gäste ihr Spieltempo flexibel: vom Automatenspiel mit kleinen Einsätzen bis zum Live-Tisch mit klar ausgewiesenen Tischlimits. Die wichtigsten Einstiege sind transparent, während konkrete Höchstbeträge direkt am Tisch, am Terminal oder am Automaten angezeigt werden. So bleibt der Besuch sowohl für Einsteiger als auch für erfahrene Gäste gut planbar. Die folgende Übersicht zeigt die zentralen Spielbereiche unseres Casinos. </p> <br> <table style="width: 100%; border-collapse: collapse; margin: 20px auto; font-family: sans-serif; color: #ffffff;font-size:14px"> <thead> <tr style="background-color: #9D6111;"> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Spiel oder Bereich</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Mindesteinsatz</th> <th style="border: 1px solid #ffffff; padding: 12px; text-align: left; color: #ffffff; font-weight: bold;">Maximum oder Gewinn</th> </tr> </thead> <tbody> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Automaten je Gewinnlinie</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,01</td> <td style="border: 1px solid #ffffff; padding: 10px;">abhängig vom Spielprogramm</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bayern-Jackpot</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">ab €0,50</td> <td style="border: 1px solid #ffffff; padding: 10px;">Gewinnmöglichkeiten bis €1.000.000</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Dice52</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">€5</td> <td style="border: 1px solid #ffffff; padding: 10px;">Auszahlungsfelder bis €5.000</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bavarian Texas Hold’em Ante</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">€5</td> <td style="border: 1px solid #ffffff; padding: 10px;">€500</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Bavarian Texas Hold’em Bonus</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischanzeige</td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischanzeige</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black Jack</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischminimum</td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischmaximum</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Black Jack Twins</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischminimum</td> <td style="border: 1px solid #ffffff; padding: 10px;">Auszahlung 11:1</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>American Roulette live</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischminimum</td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Tischmaximum</td> </tr> <tr> <td style="border: 1px solid #ffffff; padding: 10px;"><strong>Virtual Roulette und Multiroulette</strong></td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Terminalmenü</td> <td style="border: 1px solid #ffffff; padding: 10px;">laut Terminalmenü</td> </tr> </tbody> </table> <br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Events, Shows und Abendunterhaltung </h3> <p> In der Spielbank Bad Reichenhall gestalten wir den Abend nicht nur über das Spiel, sondern über Erlebnisse, die lange nachwirken. Der kulturelle Mittelpunkt unseres Casinos ist Cultino, eine feine Bühne mit Musik, Kabarett, Comedy, Konzerten und Live-Formaten. Gäste erleben Künstler aus unmittelbarer Nähe und können den Showbesuch bequem mit Bar, Restaurant und anschließendem Spiel verbinden. Besonders angenehm ist der Ablauf für Gäste, die erst Kultur genießen und danach mit Getränk, VIP-Jetons und Roulette-Erklärung in die Casinoatmosphäre eintauchen möchten. </p> <p> Cultino steht für “Art et jetons”, also für die Verbindung von Kultur und Spiel. Das Programm reicht von Jazz und Songwriter-Abenden über pointiertes Kabarett bis zu Comedy, Musikprojekten, Multivision und kompakten Live-Events. Wir setzen auf Nähe, Atmosphäre und ein besonderes Raumgefühl, das jeden Abend persönlich wirken lässt. Nach vielen Veranstaltungen wartet ein Casino-Extra mit €4 VIP-Jetons, einem Getränk und einer Roulette-Erklärung. So wird der Übergang vom Bühnenabend zum Casinoerlebnis besonders leicht. </p> <p> Oceans ergänzt die Unterhaltung mit Drinks, Clubstimmung, Feiern, Tanzformaten und einer lockeren Verbindung aus Gamen und Ausgehen. Dieser Bereich eignet sich für Gäste, die den Abend nach dem Spiel oder nach der Show weiterführen möchten. Regelmäßige kostenlose Tanzkurse machen Oceans zu einem lebendigen Treffpunkt für Bewegung, Musik und Begegnung. Bar-Kultur, Spielspannung und Clubflair greifen harmonisch ineinander. </p> <p> Für besondere Anlässe ist die Spielbank Bad Reichenhall ein starker Rahmen: Geburtstag, Firmenabend, Pre-Dinner, After-Show oder stilvolles Treffen mit Freunden. Lange Abendöffnungszeiten, JETON, Bar, Automaten, Live-Spiel und Cultino machen individuelle Abläufe möglich. Saisonale Veranstaltungen, Feiertagsabende, Geschenkideen und thematische Aktionen bereichern den Kalender. Unser Haus bietet damit nicht einzelne Programmpunkte, sondern ein vollständiges Abendkonzept. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Unterhaltung im Haus </h4> <ul> <li>• Cultino: Bühne im Casino mit Musik, Kabarett, Comedy, Konzerten und Live-Auftritten.</li> <li>• Art et jetons: Kulturkonzept, das Show und Casinoabend miteinander verbindet.</li> <li>• Oceans: Clubbereich mit Drinks, Spiel, Feiern und entspannter Atmosphäre.</li> <li>• Kostenlose Tanzkurse: regelmäßiger Programmpunkt für Gäste, die Bewegung und Musik lieben.</li> <li>• Casino-Extra nach Cultino: €4 VIP-Jetons, ein Getränk und eine Roulette-Erklärung.</li> <li>• Bar im Spielsaal: Cocktails, Champagner, alkoholfreie Drinks und gepflegte Gespräche.</li> <li>• JETON Restaurant & Bar: kulinarische Ergänzung zu Show, Spiel und späterem Abend.</li> <li>• Poker-Events: Turniere, Cash Game und strategische Wettbewerbsatmosphäre.</li> <li>• Saisonale Events: Feiertagsabende, Kalenderaktionen, Überraschungen und Geschenkideen.</li> <li>• Private Anlässe: passender Rahmen für Geburtstage, Gruppen und besondere Abende.</li> </ul><br>
+
+<h3 style = "font-weight: bold;font-size: 32px;"> Spielbank Bad Reichenhall: Bar, JETON, Oceans und entspannter Aufenthalt </h3> <p> In der Spielbank Bad Reichenhall bieten wir unseren Gästen nicht nur Spiel, sondern einen vollständigen Abend mit Drinks, Restaurant, Bühne und Erholungsgefühl. Die Bar im Spielsaal ist ein natürlicher Treffpunkt vor dem Spiel, zwischen den Runden oder nach einem besonderen Moment. Gäste wählen alkoholfreie Drinks, Cocktails, Champagner und klassische Erfrischungen. Das Barerlebnis passt zu unserem Stil: ruhig, elegant, nah am Spiel und ohne das Casino verlassen zu müssen. </p> <p> JETON Restaurant & Bar ist ein wichtiger Bestandteil unseres Abendrundgangs. Das Restaurant befindet sich direkt im Casino und eignet sich für den Auftakt des Abends, ein Dinner nach Cultino, eine Pause zwischen den Spielen oder ein spätes Treffen. Mit JETON verbinden wir Roulette, Black Jack, Poker, Automaten, Getränke und Kulinarik an einem Ort. Die frische Energie des Teams macht den Bereich lebendig, gastnah und angenehm unkompliziert. </p> <p> Oceans bringt ein modernes Clubgefühl in unser Haus. Der Bereich steht für Drinks, Gespräche, Feiern, Tanzformate und einen lockeren Ausklang des Abends. Gäste können aus dem Spielsaal in eine entspanntere Atmosphäre wechseln oder Oceans mit einer Cultino-Veranstaltung verbinden. Regelmäßige Tanzformate machen den Besuch sozial, beweglich und unterhaltsam. </p> <p> Unser Casino liegt in einer komfortablen städtischen Umgebung mit vielseitigen Übernachtungsmöglichkeiten in der Nähe. Gäste kombinieren den Casinoabend leicht mit Hotelaufenthalt, Spaziergang, Dinner, Kulturprogramm und Erholung. Besonders praktisch ist die kurze Abendlogik: Spiel, Restaurant, Bar, Show und Rückweg lassen sich einfach planen. So passt die Spielbank Bad Reichenhall sowohl zu einem spontanen Abend als auch zu einem längeren Aufenthalt. </p> <br> <h4 style = "font-weight: bold; font-size: 24px;"> Orte für Genuss und Aufenthalt </h4> <ul> <li>• Bar im Spielsaal: Cocktails, Champagner, alkoholfreie Drinks und entspannte Pausen direkt am Spiel.</li> <li>• JETON Restaurant & Bar: Restaurant im Casino für Dinner, Treffen und After-Show-Momente.</li> <li>• Oceans: Drinks, Clubstimmung, Tanzabende und lockere soziale Atmosphäre.</li> <li>• Cultino: Bühne für Musik, Comedy, Kabarett und Konzerte.</li> <li>• Automatenspielbereich: individuelles Spieltempo und angenehme Pausen zwischen Programmpunkten.</li> <li>• Live-Spielsaal: Roulette, Black Jack, Poker und Dice52 im klassischen Casinoambiente.</li> <li>• Hotelumfeld: passende Übernachtungsmöglichkeiten für Gäste, die den Abend vorausplanen.</li> <li>• Kurgastzentrum: praktische Lage für die Verbindung von Erholung, Kultur und Casinoabend.</li> </ul><br></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="faq">
+            <div class="container">
+                <div class="faqBlock block">
+                    <h2 class="faqTitle title"><span>FAQ</span></h2>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="muss_der_casinobesuch_reserviert_werden"/><label
+                            class="faqLabel" for="muss_der_casinobesuch_reserviert_werden">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Muss der Casinobesuch reserviert werden? </span></label>
+                        <div class="faqContent">
+                            <p>Für den normalen Besuch des Spielsaals ist meist keine Reservierung nötig. Für Dinner, Gruppen oder Cultino-Abende empfiehlt sich eine frühzeitige Planung.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="eignet_sich_die_spielbank_bad_reichenhall_fr_den_ersten_casinobesuch"/><label
+                            class="faqLabel" for="eignet_sich_die_spielbank_bad_reichenhall_fr_den_ersten_casinobesuch">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Eignet sich die Spielbank Bad Reichenhall für den ersten Casinobesuch? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, unser Team unterstützt bei Orientierung, Eintritt, Casino Card, Tischregeln und grundlegenden Fragen. Besonders angenehm ist die Roulette-Erklärung im Rahmen von Cultino-Abenden.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="kann_man_einen_casinoabend_verschenken"/><label
+                            class="faqLabel" for="kann_man_einen_casinoabend_verschenken">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Kann man einen Casinoabend verschenken? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, Jetons, Dinner, Drinks, Cultino-Tickets oder ein kombinierter Abend eignen sich hervorragend als Geschenk mit Erlebnischarakter.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="welche_dokumente_sollten_gste_mitbringen"/><label
+                            class="faqLabel" for="welche_dokumente_sollten_gste_mitbringen">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Welche Dokumente sollten Gäste mitbringen? </span></label>
+                        <div class="faqContent">
+                            <p>Ein gültiger Lichtbildausweis ist wichtig, etwa Personalausweis, Reisepass oder EU-Führerschein. Das Dokument wird für die Zutrittsprüfung benötigt.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="werden_spiele_fr_einsteiger_erklrt"/><label
+                            class="faqLabel" for="werden_spiele_fr_einsteiger_erklrt">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Werden Spiele für Einsteiger erklärt? </span></label>
+                        <div class="faqContent">
+                            <p>Ja, unser Team hilft beim Verständnis der Grundregeln. Nach Cultino-Veranstaltungen kann eine kompakte Roulette-Erklärung Teil des Casino-Extras sein.</p>
+                        </div>
+                    </div>
+                    <div class="faqGroup"><input class="faqInput" type="checkbox" id="wann_ist_die_beste_besuchszeit"/><label
+                            class="faqLabel" for="wann_ist_die_beste_besuchszeit">
+
+                        <svg class="faqIcon" width="24" height="24" aria-hidden="true">
+                            <use class="plus" href="#plus-icon"></use>
+                            <use class="minus" href="#minus-icon"></use>
+                        </svg>
+
+                        <span class="gradientContainer"> Wann ist die beste Besuchszeit? </span></label>
+                        <div class="faqContent">
+                            <p>Für Automaten eignet sich der Besuch ab Mittag, für Live-Spiel und Abendflair eher der spätere Nachmittag oder Abend. Für Cultino lohnt es sich, rechtzeitig vor Veranstaltungsbeginn anzukommen.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="footer">
+    <div class="footerContainer">
+        <div class="footerTop">
+            <div class="footerLogoContainer"><a href="https://spielbank-bad-reichenhall-casino.com" aria-label="Main page"><img class="footer__logo"
+                                                                                                     src="_assets/images/1777371622-logo-at-2x-2.webp" alt="" width="140"
+                                                                                                     height="48" /></a></div>
+            <div class="footerPay">
+                <div class="payBlock"><img class="payElementGrey"
+                                           src="./assets/images/footer/payment/masterCard.svg" alt="MasterCard" /><img
+                        class="payElementColor" src="./assets/images/footer/payment/masterCard--color.svg"
+                        alt="MasterCard" title="MasterCard in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/visa.svg"
+                                           alt="Visa" /><img class="payElementColor"
+                                                             src="./assets/images/footer/payment/visa--color.svg" alt="Visa" title="Visa in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/neteller.svg"
+                                           alt="Neteller" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/neteller--color.svg" alt="Neteller" title="Neteller in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/skrill.svg"
+                                           alt="Skrill" /><img class="payElementColor"
+                                                               src="./assets/images/footer/payment/skrill--color.svg" alt="Skrill" title="Skrill in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/bitcoin.svg"
+                                           alt="Bitcoin" /><img class="payElementColor"
+                                                                src="./assets/images/footer/payment/bitcoin--color.svg" alt="Bitcoin" title="Bitcoin in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/litecoin.svg"
+                                           alt="Litecoin" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/litecoin--color.svg" alt="Litecoin" title="Litecoin in Spielbank Bad Reichenhall" /></div>
+                <div class="payBlock"><img class="payElementGrey" src="./assets/images/footer/payment/ethereum.svg"
+                                           alt="Etherium" /><img class="payElementColor"
+                                                                 src="./assets/images/footer/payment/ethereum--color.svg" alt="Etherium" title="Etherium in Spielbank Bad Reichenhall" /></div>
+            </div>
+        </div>
+        <div class="footerMiddle">
+            <div class="footerOperator">
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gpwa.svg" alt="GPWA" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gpwa--color.svg"
+                        alt="GPWA" title="GPWA in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambleaware.svg" alt="Gamble Aware" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gambleaware--color.svg"
+                        alt="Gamble Aware" title="Gamble Aware in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamcare.svg" alt="Game care" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamcare--color.svg"
+                        alt="Game care" title="Game care in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gambling-therapy.svg" alt="Gambling Therapy" /><img
+                        class="operatorElementColor"
+                        src="./assets/images/footer/operator/gambling-therapy--color.svg" alt="Gambling Therapy" title="Gambling Therapy in Spielbank Bad Reichenhall" />
+                </div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/gamban.svg" alt="Gamban" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/gamban--color.svg"
+                        alt="Gamban" title="Gamban in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/betblocker.svg" alt="BetBlocker" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/betblocker--color.svg"
+                        alt="BetBlocker" title="BetBlocker in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/itech_labs.svg" alt="ITech Labs" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/itech_labs--color.svg"
+                        alt="ITech Labs" title="ITech Labs in Spielbank Bad Reichenhall" /></div>
+                <div class="operatorBlock"><img class="operatorElementGrey"
+                                                src="./assets/images/footer/operator/ecogra.svg" alt="Ecogra" /><img
+                        class="operatorElementColor" src="./assets/images/footer/operator/ecogra--color.svg"
+                        alt="Ecogra" title="Ecogra in Spielbank Bad Reichenhall" /></div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="footerBottomGroup">
+                <p class="footerBottomAge">18+</p>
+                <p class="footerBottomCopyright">Copyright © <span class="js-current-year"></span> Spielbank Bad Reichenhall </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    var playButtonName = "#play-icon";
+    var informationOutlineName =
+        "#information-outline";
+    var topCasinoButtonText = "Bonus sichern";
+    var welcomeBonusText = "Willkommensbonus";
+    var bonusDetailsButtonText = "Bonus erhalten";
+    var playNowText = " Jetzt spielen";
+    var maximumAmountText = "Maximalbetrag";
+    var wagerText = "Umsatz";
+    var bonusCodeText = "Bonuscode";
+    var depositText = "";
+    var casinoName = "Spielbank Bad Reichenhall";
+</script>
+
+</body>
+</html>

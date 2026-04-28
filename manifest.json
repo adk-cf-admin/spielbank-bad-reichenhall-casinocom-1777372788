@@ -1,0 +1,19 @@
+{
+  "name": "Spielbank Bad Reichenhall",
+  "short_name": "Spielbank Bad Reichenhall",
+  "theme_color": "",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "_assets/images/1777371579-favicon-14.webp",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "splash_pages": null
+}
